@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "dev": "nodemon src/server.js",
-    "start": "node src/server.js"
+    "start": "node src/server.js",
+    "test": "vitest run"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +16,10 @@
     "dotenv": "^17.4.0",
     "express": "^5.2.1",
     "mongoose": "^9.3.3"
+  },
+  "devDependencies": {
+    "light-my-request": "^6.6.0",
+    "supertest": "^7.2.2",
+    "vitest": "^4.1.2"
   }
 }
